@@ -14,7 +14,7 @@ Use this action if you need to write a base64-encoded string to a path. This can
 ## Usage
 ```
 - name: Some name
-  uses: RollyPeres/base64-to-path@v1
+  uses: newera-systems/workflow-action/base64-to-file@master
   with:
     filePath: ${{ github.workspace }}/somefile.someextension
     encodedString: ${{ secrets.SOME_GITHUB_SECRET }}
